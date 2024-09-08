@@ -50,12 +50,26 @@
 
 
 
-```embed
-title: "Kive — Shape visions with AI. Your craft, amplified."
-image: "https://framerusercontent.com/images/p0w4c11kZ23HjLVFxDN05vADLk.png"
-description: "Build and expand your creative library. Harness AI to refine, reimagine, and represent your unique vision. Then elevate your projects with collaborative tools — no tech barriers, just pure creativity."
-url: "https://kive.ai/"
-```
+<iframe src="https://discord.com/widget?id=341186076360179723&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"> </iframe>
+
+
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdz-_Giq2121Yv6nkSMoNi6DvGSTLFAHHWWZ818UFBVgpepGg/viewform?embedded=true" width="640" height="414" frameborder="0" marginheight="0" marginwidth="0">Зарежда се…</iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
