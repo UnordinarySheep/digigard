@@ -5,7 +5,7 @@
 
 <iframe 
     height="800" 
-    width="1000" 
+    width="800" 
     src="https://fmhy.net/storage#android-note-apps" 
     frameborder="0" 
     allowfullscreen 
