@@ -8,7 +8,36 @@
     height="800" 
     width="700" 
     src="https://fmhy.net" 
-    frameborder="0" 
+    frameborder="1" 
     allowfullscreen 
     style="float: left; margin-right: 20px; border: none;">
 </iframe>
+
+
+
+
+
+
+
+<iframe 
+    height="800" 
+    width="700" 
+    src="https://glosbe.com/en/en/simple" 
+    frameborder="1" 
+    allowfullscreen 
+    style="float: left; margin-right: 20px; border: none;">
+</iframe>
+
+<div style="clear: both;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
