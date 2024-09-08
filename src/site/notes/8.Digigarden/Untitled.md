@@ -4,8 +4,9 @@
 
 
 <iframe 
+	
     height="800" 
-    width="750" 
+    width="1000" 
     src="https://fmhy.net/storage#android-note-apps" 
     frameborder="0" 
     allowfullscreen 
