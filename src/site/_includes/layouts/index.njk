@@ -17,7 +17,14 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-K3XBL7FH');</script>
     <!-- End Google Tag Manager -->
-  </head>
+
+<!-- Inline Styles for Folder Names -->
+  <style>
+    .foldername {
+      color: #000000; /* Default color */
+    }
+  </style>
+</head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
 <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3XBL7FH"
@@ -88,6 +95,18 @@
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+
+ <!-- Folder Name Examples with Inline Styles -->
+  <div>
+    <span class="foldername" style="color: #800080;">1. Folder: Purple</span><br>
+    <span class="foldername" style="color: #0000FF;">2. Folder: Blue</span><br>
+    <span class="foldername" style="color: #00FFFF;">3. Folder: Cyan</span><br>
+    <span class="foldername" style="color: #00FF00;">4. Folder: Green</span><br>
+    <span class="foldername" style="color: #FFFF00;">5. Folder: Yellow</span><br>
+    <span class="foldername" style="color: #FFA500;">6. Folder: Orange</span><br>
+    <span class="foldername" style="color: #FF0000;">7. Folder: Red</span>
+  </div>
+
     </body>
   </html>
 
