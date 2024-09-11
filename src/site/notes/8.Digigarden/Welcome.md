@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/8-digigarden/welcome/","tags":["gardenEntry"],"noteIcon":"2"}
+{"dg-publish":true,"permalink":"/8-digigarden/welcome/","noteIcon":"2"}
 ---
 
 # Sources for everything you would ever need
