@@ -18,11 +18,14 @@
     })(window,document,'script','dataLayer','GTM-K3XBL7FH');</script>
     <!-- End Google Tag Manager -->
 
-<!-- Inline Styles for Folder Names -->
-  <style>
-    .foldername {
-      color: #000000; /* Default color */
-    }
+<style>
+    .folder-purple { color: #800080; }
+    .folder-blue { color: #0000FF; }
+    .folder-cyan { color: #00FFFF; }
+    .folder-green { color: #00FF00; }
+    .folder-yellow { color: #FFFF00; }
+    .folder-orange { color: #FFA500; }
+    .folder-red { color: #FF0000; }
   </style>
 </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
@@ -96,15 +99,15 @@
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
 
- <!-- Folder Name Examples with Inline Styles -->
+ <!-- Folder Name Examples with Unique Classes -->
   <div>
-    <span class="foldername" style="color: #800080;">1. Folder: Purple</span><br>
-    <span class="foldername" style="color: #0000FF;">2. Folder: Blue</span><br>
-    <span class="foldername" style="color: #00FFFF;">3. Folder: Cyan</span><br>
-    <span class="foldername" style="color: #00FF00;">4. Folder: Green</span><br>
-    <span class="foldername" style="color: #FFFF00;">5. Folder: Yellow</span><br>
-    <span class="foldername" style="color: #FFA500;">6. Folder: Orange</span><br>
-    <span class="foldername" style="color: #FF0000;">7. Folder: Red</span>
+    <span class="foldername folder-purple">1. Folder: Purple</span><br>
+    <span class="foldername folder-blue">2. Folder: Blue</span><br>
+    <span class="foldername folder-cyan">3. Folder: Cyan</span><br>
+    <span class="foldername folder-green">4. Folder: Green</span><br>
+    <span class="foldername folder-yellow">5. Folder: Yellow</span><br>
+    <span class="foldername folder-orange">6. Folder: Orange</span><br>
+    <span class="foldername folder-red">7. Folder: Red</span>
   </div>
 
     </body>
