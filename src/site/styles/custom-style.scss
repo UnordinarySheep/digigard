@@ -1,0 +1,71 @@
+body {
+    .filetree-sidebar {
+        margin: 0;
+        z-index: 10;
+        padding: 10px;
+        top: 0px;
+        left: 0;
+        position: fixed;
+        height: 100%;
+        background-color: var(--background-secondary);
+        color: var(--text-muted);
+        overflow-y: auto;
+        width: 250px;
+
+        h1 {
+            font-size: 32px !important;
+        }
+
+        @media (max-width: 800px) {
+            h1 {
+                display: none;
+            }
+
+            .search-button {
+                width: 100%;
+                margin: 2px;
+            }
+        }
+
+        // Base folder style
+        .foldername {
+            padding: 10px;
+            color: #fff; // White text for contrast
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+
+        // Custom color classes with higher specificity
+        .foldername.folder-color-purple {
+            background-color: #800080 !important; // Purple
+        }
+
+        .foldername.folder-color-indigo {
+            background-color: #4b0082 !important; // Indigo
+        }
+
+        .foldername.folder-color-blue {
+            background-color: #0000ff !important; // Blue
+        }
+
+        .foldername.folder-color-green {
+            background-color: #00ff00 !important; // Green
+        }
+
+        .foldername.folder-color-yellow {
+            background-color: #ffff00 !important; // Yellow
+        }
+
+        .foldername.folder-color-orange {
+            background-color: #ff7f00 !important; // Orange
+        }
+
+        .foldername.folder-color-red {
+            background-color: #ff0000 !important; // Red
+        }
+
+        .foldername.folder-color-pink {
+            background-color: #ff69b4 !important; // Pink (optional)
+        }
+    }
+}
