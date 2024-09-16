@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const folders = document.querySelectorAll('.foldername');
+    console.log(folders); // Check if folders are being selected
 
     const colorClasses = {
         '4Financial sysyem. Employability, Governemnt TAx, RENT PROperty, Law, retirement': 'folder-color-purple',
