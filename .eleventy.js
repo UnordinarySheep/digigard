@@ -95,7 +95,7 @@ const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/styles/custom-style.scss");
-  eleventyConfig.addPassthroughCopy("src/site/scripts");
+  eleventyConfig.addPassthroughCopy("src/site/_includes/js/clr.js");
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
