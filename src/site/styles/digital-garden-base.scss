@@ -899,8 +899,7 @@ div.dataview-error-box {
 	content: ")";
 }
 
+/* Add the new rule for hiding the external link icon */
+.external-link-icon {
+    display: none !important; /* Hides the external link icon */
 }
-
-        // Hide the external link icon
-        .external-link-icon {
-            display: none !important; // Hides the external link icon
