@@ -7,16 +7,5 @@
     { "handle": "filesystem" },
     { "src": "/api/(.*)", "dest": "/api/$1" },
     { "src": "/(.*)", "status": 404, "dest": "/404" }
-  ],
-  "headers": [
-    {
-      "source": "/site/img/user/8.Digigarden/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
-    }
   ]
 }
