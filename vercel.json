@@ -10,7 +10,7 @@
   ],
   "headers": [
     {
-      "source": "/img/(.*)",  // Path to the images
+      "source": "/img/user/(.*)",  // Path to the images
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
