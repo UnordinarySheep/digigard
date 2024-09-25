@@ -1,5 +1,4 @@
 {
-  "outputDirectory": "dist",
   "installCommand": "npm install",
   "buildCommand": "npm run build",
   "devCommand": "npm run start",
@@ -10,13 +9,14 @@
   ],
   "headers": [
     {
-      "source": "/src/site/img/user/8.Digigarden/(.*)",  // Path to the images
+      "source": "/site/img/user/8.Digigarden/(.*)",  // Correct path without /src
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "*"  // Allow all origins to access the images
+          "value": "*"  // Allow all origins
         }
       ]
     }
   ]
 }
+
