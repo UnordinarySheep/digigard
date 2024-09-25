@@ -217,3 +217,9 @@ p > code {
 .callout.is-collapsed .callout-fold .svg-icon {
     transform: rotate(-90deg);
 }
+
+ }
+
+        // Hide the external link icon
+        .external-link-icon {
+            display: none !important; // Hides the external link icon
