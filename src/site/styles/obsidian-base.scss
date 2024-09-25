@@ -10626,4 +10626,7 @@ body {
     font-size: var(--font-ui-medium);
     width: 100%;
   }
-  
+
+        // Hide the external link icon
+        .external-link-icon {
+            display: none !important; // Hides the external link icon
