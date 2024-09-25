@@ -10,7 +10,7 @@
   ],
   "headers": [
     {
-      "source": "/img/user/(.*)",  // Path to the images
+      "source": "/src/site/img/user/8.Digigarden/(.*)",  // Path to the images
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
