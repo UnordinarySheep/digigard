@@ -451,6 +451,15 @@ module.exports = function (eleventyConfig) {
       return str;
     }
     const parsed = parse(str);
+
+  // Transform image file IDs to full URLs
+  const updatedElements = parsed.querySelectorAll("img").forEach(imageTag => {
+    const fileId = imageTag.getAttribute("src"); // or however you retrieve the fileId
+    if (fileId) {
+      imageTag.setAttribute("src", fileIdToURL(fileId)); // Assuming fileIdToURL is a function you've defined
+    }
+  });
+
     for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
       const src = imageTag.getAttribute("src");
       if (src && src.startsWith("/") && !src.endsWith(".svg")) {
