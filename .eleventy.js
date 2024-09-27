@@ -587,3 +587,18 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true,
   };
 };
+
+module.exports = function(eleventyConfig) {
+  // Passthrough for HTML files
+  eleventyConfig.addPassthroughCopy("src/site/html");
+
+  // Add filters, shortcodes, or other customizations here if needed
+
+  return {
+    dir: {
+      input: "src/site",  // The source folder
+      output: "dist",     // Output folder for all processed files
+    },
+    passthroughFileCopy: true  // Ensures passthrough files are copied over
+  };
+};
