@@ -451,18 +451,6 @@ module.exports = function (eleventyConfig) {
       return str;
     }
     const parsed = parse(str);
-
-// .eleventy.js
-const eleventyImage = require("@11ty/eleventy-img");
-
-module.exports = function(eleventyConfig) {
-  // Custom filter to convert fileId to full URL
-  eleventyConfig.addFilter("fileIdToURL", function(fileId) {
-    // Assuming the base URL is known
-    const baseURL = "https://digigard-one.vercel.app/img/user/";
-    return `${baseURL}${fileId}`; // Corrected string interpolation syntax
-  });
-
     for (const imageTag of parsed.querySelectorAll(".cm-s-obsidian img")) {
       const src = imageTag.getAttribute("src");
       if (src && src.startsWith("/") && !src.endsWith(".svg")) {
